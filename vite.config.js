@@ -7,6 +7,6 @@ export default defineConfig({
   server: {
     port: 5173, // Dynamically use the port assigned by Render, or fallback to 5173
     host: true, // Ensure the app is accessible on the network
-    allowedHosts: 'all', // Allow all hosts to access the server
+    allowedHosts: ['shatadhru.onrender.com'], // Add your allowed host here
   }
 })
